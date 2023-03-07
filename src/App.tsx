@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import WebProjects from './sections/WebProjects'
-import MovileProjects from './sections/MovileProjects'
+import MobileProjects from './sections/MobileProjects'
 
 
 function App() {
@@ -11,12 +11,14 @@ function App() {
       
 
       <nav className='nav'>
+        <a href="">Acerca de mí</a>
+        <a href="">Proyectos Escritorio</a>
         <a href="">Proyectos WEB</a>
         <a href="">Proyectos Móvil</a>
       </nav>
 
       <WebProjects/>
-      <MovileProjects/>
+      <MobileProjects/>
     </div>
   )
 }
