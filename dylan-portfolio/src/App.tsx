@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
 
-      <h1>Dylan Yessid López Jaramillo</h1>
-      <h2>Portfolio</h2>
+      <h1>Dylan Yessid López Jaramillo - Portfolio</h1>
+      
 
       <nav className='nav'>
         <a href="">Proyectos WEB</a>
